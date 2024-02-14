@@ -48,7 +48,7 @@ You can declare multiple variables at once.
 var a,b int = 1, 2
 ```
 
-Go will infer the type of initialized variables. In the example below Go will automatically inter Boolean type to the **_d_** variable
+Go will infer the type of initialized variables. In the example below Go will automatically mark **_d_** as a Boolean type.
 
 ```go
 var d = true
@@ -60,7 +60,7 @@ Variables declared without a corresponding initialization are zero-valued. For e
 var zeroInt int
 ```
 
-The := syntax is shorthand for declaring and initializing a variable
+The := syntax is shorthand for declaring and initializing a variable.
 
 ```go
 shortHandVariable := "This is shorthand"
