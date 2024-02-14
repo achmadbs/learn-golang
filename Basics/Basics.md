@@ -23,10 +23,6 @@ package main
 import "fmt"
 
 func main() {
-    var test string = ""
-    test = "hello world"
-    const testlg string = ""
-    testlg = 123
     fmt.Println("Hello World!")
 }
 ```
