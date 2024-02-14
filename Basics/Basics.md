@@ -66,4 +66,4 @@ The := syntax is shorthand for declaring and initializing a variable
 shortHandVariable := "This is shorthand"
 ```
 
-_This syntas is only available inside functions._
+_This syntax is only available inside functions._
