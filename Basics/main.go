@@ -2,6 +2,17 @@ package main
 
 import "fmt"
 
+func constVariable() {
+    const initConst = "constant variable"
+    fmt.Println(initConst)
+
+    const (
+        firstConst = 365
+        secondConst = int32(366)
+    )
+    fmt.Println(firstConst, secondConst)
+}
+
 func main() {
     var a string = "initial string"
     fmt.Println(a)
@@ -17,4 +28,6 @@ func main() {
 
     f := "short hand variable"
     fmt.Println(f)
+
+    constVariable()
 }
