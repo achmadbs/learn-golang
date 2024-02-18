@@ -33,8 +33,8 @@ func main() {
 
 In Go _variables_ are expicitly declared and used by the compiler to check type-correctness of function calls as Go is statically typed and compiled language
 
-**[Compiled vs Interpreted Languages](https://twitter.com/inancgumus)**
-_A compiled language is a programming language that is converted into machine code (the end result of this process is a binary file typically referred as extension such as .exe .apk) so that the processor can execute it. This means that the program must be compiled again when some changes are made._
+**[Compiled vs Interpreted Languages](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/)**
+> _A compiled language is a programming language that is converted into machine code (the end result of this process is a binary file typically referred as extension such as .exe .apk) so that the processor can execute it. This means that the program must be compiled again when some changes are made._
 
 var declares 1 or more variables.
 
@@ -48,7 +48,7 @@ You can declare multiple variables at once.
 var a,b int = 1, 2
 ```
 
-Go will infer the type of initialized variables. In the example below Go will automatically inter Boolean type to the **_d_** variable
+Go will infer the type of initialized variables. In the example below Go will automatically mark **_d_** as a Boolean type.
 
 ```go
 var d = true
@@ -60,10 +60,10 @@ Variables declared without a corresponding initialization are zero-valued. For e
 var zeroInt int
 ```
 
-The := syntax is shorthand for declaring and initializing a variable
+The := syntax is shorthand for declaring and initializing a variable.
 
 ```go
 shortHandVariable := "This is shorthand"
 ```
 
-_This syntas is only available inside functions._
+_This syntax is only available inside functions._
