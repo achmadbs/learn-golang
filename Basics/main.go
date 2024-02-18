@@ -9,8 +9,9 @@ func constVariable() {
     const (
         firstConst = 365
         secondConst = int32(366)
+        thirdConst = 3e20 / firstConst
     )
-    fmt.Println(firstConst, secondConst)
+    fmt.Println(firstConst, secondConst, thirdConst)
 }
 
 func main() {

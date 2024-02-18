@@ -34,6 +34,7 @@ func main() {
 In Go _variables_ are expicitly declared and used by the compiler to check type-correctness of function calls as Go is statically typed and compiled language
 
 **[Compiled vs Interpreted Languages](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/)**
+
 > _A compiled language is a programming language that is converted into machine code (the end result of this process is a binary file typically referred as extension such as .exe .apk) so that the processor can execute it. This means that the program must be compiled again when some changes are made._
 
 var declares 1 or more variables.
@@ -67,3 +68,45 @@ shortHandVariable := "This is shorthand"
 ```
 
 _This syntax is only available inside functions._
+
+## Constant
+
+Go supports _constants_ of character, string, boolean, and numeric values.
+
+_to declares constant variable we can use const keyword_
+
+```go
+const initConstant = 3e20
+```
+
+Constant are like variables in Go, except they can't be modified once they have been declared.
+
+```go
+const initConstant = 3e20
+initConstant = 300;
+```
+
+> If we try to modify a constant after it was declared like the example above. We will get a compile-time error like so "cannot assign to initConstant"
+
+Constant can be **untyped**. This can be useful when we working with numbers with arbitrary precision such as _float_, _int_. If the constant is **untyped**, it is explicity converted, where **typed** constant are not.
+Lets see how we can use constant with an arbitrary number precision.
+
+```go
+package main
+
+import (
+    "fmt"
+    "math"
+)
+
+func main() {
+    const n = 500000000
+    const d = 3e20 / n
+
+    fmt.Println(d)
+    fmt.Println(int64(d))
+    fmt.Println(math.Sin(n))
+}
+```
+
+> In the example above math.Sin is expects a float64 type, since we didn't explicity give it a type it will automatically converted to a float64 type.
