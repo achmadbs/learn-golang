@@ -110,3 +110,10 @@ func main() {
 ```
 
 > In the example above math.Sin is expects a float64 type, since we didn't explicity give it a type it will automatically converted to a float64 type.
+
+```bash
+$ go run constant.go
+6e+11
+600000000000
+-0.28470407323754404
+```
