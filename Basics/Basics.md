@@ -63,7 +63,7 @@ Variables declared without a corresponding initialization are zero-valued. For e
 var zeroInt int
 ```
 
-The := syntax is shorthand for declaring and initializing a variable.(_This syntax is only available inside functions._)
+The := syntax is shorthand for declaring and initializing a variable. (_This syntax is only available inside functions._)
 
 ```go
 shortHandVariable := "This is shorthand"
