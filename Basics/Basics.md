@@ -37,6 +37,8 @@ In Go _variables_ are expicitly declared and used by the compiler to check type-
 
 > _A compiled language is a programming language that is converted into machine code (the end result of this process is a binary file typically referred as extension such as .exe .apk) so that the processor can execute it. This means that the program must be compiled again when some changes are made._
 
+> _An interpreted language is a type of programming language in which the source code is executed line by line by an interpreter during runtime. In an interpreted language, the interpreter reads the source code, interprets each line, and executes the corresponding instructions._
+
 var declares 1 or more variables.
 
 ```go
