@@ -150,7 +150,7 @@ fmt.Println(i) // will cause infinite loop and this line will never reached
 
 **For-each range Loop**
 ```go
-arrayOfString := []string{"hello", "world"}
+sliceOfString := [2]string{"hello", "world"}
 for i, str := range arrayOfString {
     fmt.Println(i, str)
 }
