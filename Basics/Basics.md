@@ -117,3 +117,18 @@ $ go run constant.go
 600000000000
 -0.28470407323754404
 ```
+## Loop
+In go there are 5 basic for loop patterns 
+
+**Three component loop**
+```go
+sum := 0
+for i := 0; i < 5; i++ {
+    i++
+}
+fmt.Println(sum) // 10
+```
+
+
+
+
