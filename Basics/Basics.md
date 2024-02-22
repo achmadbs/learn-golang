@@ -118,6 +118,7 @@ $ go run constant.go
 -0.28470407323754404
 ```
 ## Loop
+
 In go there are 5 basic for loop patterns 
 
 **Three component loop**
@@ -128,6 +129,37 @@ for i := 0; i < 5; i++ {
 }
 fmt.Println(sum) // 10
 ```
+
+**While loop**
+```go
+i := 0
+for i < 5; i++ {
+    i += 2
+}
+fmt.Println(i) // 6
+```
+
+**Infinite Loop**
+```go
+i := 0
+for {
+    i++
+}
+fmt.Println(i) // will cause infinite loop and this line will never reached
+```
+
+**For-each range Loop**
+```go
+arrayOfString := []string{"hello", "world"}
+for i, str := range arrayOfString {
+    fmt.Println(i, str)
+}
+```
+```bash
+0 hello
+1 world
+```
+
 
 
 
