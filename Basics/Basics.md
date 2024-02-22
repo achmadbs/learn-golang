@@ -159,7 +159,17 @@ for i, str := range arrayOfString {
 0 hello
 1 world
 ```
-
+***Exit a loop**
+```go
+i := 0
+for i < 5; i++ {
+    if i%2 === 0 // skip even number
+        continue
+    i++
+}
+fmt.Println(i, str) // 3
+```
+In Go, there are two methods to skip or terminate an iteration. In the given example we utilize **_continue_** statement to bypass a condition and proceed with the rest of the loop. An alternative approach is to use **_break_** statement which allows for immediate termination of the iteration when a spesific condition is met.
 
 
 
