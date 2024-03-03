@@ -214,3 +214,6 @@ fmt.Println(i, str) // 3
 In Go, there are two methods to skip or terminate an iteration. In the given example we utilize **_continue_** statement to bypass a condition and proceed with the rest of the loop. An alternative approach is to use **_break_** statement which allows for immediate termination of the iteration when a spesific condition is met.
 
 ## Functions
+
+Functions in Go can take zero or more arguments.\
+Similliar with TypeScript, the variable type comes after the variable name.
