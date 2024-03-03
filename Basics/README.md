@@ -217,3 +217,13 @@ In Go, there are two methods to skip or terminate an iteration. In the given exa
 
 Functions in Go can take zero or more arguments.\
 Similliar with TypeScript, the variable type comes after the variable name.
+<br />
+For example, the following function:
+
+```go
+func counter(x int): int {
+    return x++
+}
+```
+
+Accepts `x` parameter that has integer type and returns another integer value.
