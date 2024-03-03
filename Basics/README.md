@@ -133,6 +133,24 @@ fmt.Println("I am a %v programmer", "Golang") // I am a Golang programmer
 fmt.Println("I have %v years of experience", 4) // I have 4 years of experience
 ```
 
+%s - String representation
+
+```go
+fmt.Println("This is a %v type interpolation", "string") // This is a string type representation
+```
+
+%d - Integer in decimal form representation
+
+```go
+fmt.Println("I am a software engineer with %d years of experience", 4) // I am a software engineer with 4 years of experience
+```
+
+%f - Decimal representation
+
+```go
+fmt.Println("I am %f years old", 28.5) // I am 28.5 years old
+```
+
 ## Loop
 
 In go there are 5 basic for loop patterns
