@@ -14,6 +14,11 @@ func constVariable() {
     fmt.Println(firstConst, secondConst, thirdConst)
 }
 
+func stringInterpolation() {
+    fmt.Printf("I am %v Programmer", "Golang");
+    fmt.Printf("I have %v years of experience", 4);
+}
+
 func main() {
     var a string = "initial string"
     fmt.Println(a)
@@ -31,4 +36,5 @@ func main() {
     fmt.Println(f)
 
     constVariable()
+    stringInterpolation()
 }

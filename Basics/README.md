@@ -117,11 +117,27 @@ $ go run constant.go
 600000000000
 -0.28470407323754404
 ```
+
+## String Interpolation
+
+In my opinion, string formatting/interpolation in Go is currently _less_ elegant than JavaScript.
+
+**Examples**
+%v - Default representation
+
+The `%v` variants prints the Go syntax to represent a value. Usually we can use this if we are unsure what else to use. With that said it is better to use type-spesific variants.
+
+```go
+fmt.Println("I am a %v programmer", "Golang") // I am a Golang programmer
+fmt.Println("I have %v years of experience", 4) // I have 4 years of experience
+```
+
 ## Loop
 
-In go there are 5 basic for loop patterns 
+In go there are 5 basic for loop patterns
 
 **Three component loop**
+
 ```go
 sum := 0
 for i := 0; i < 5; i++ {
@@ -131,6 +147,7 @@ fmt.Println(sum) // 10
 ```
 
 **While loop**
+
 ```go
 i := 0
 for i < 5; i++ {
@@ -140,6 +157,7 @@ fmt.Println(i) // 6
 ```
 
 **Infinite Loop**
+
 ```go
 i := 0
 for {
@@ -149,17 +167,21 @@ fmt.Println(i) // will cause infinite loop and this line will never reached
 ```
 
 **For-each range Loop**
+
 ```go
 arrayOfString := [2]string{"hello", "world"}
 for i, str := range arrayOfString {
     fmt.Println(i, str)
 }
 ```
+
 ```bash
 0 hello
 1 world
 ```
-***Exit a loop**
+
+**Exit a loop**
+
 ```go
 i := 0
 for i < 5; i++ {
@@ -169,8 +191,5 @@ for i < 5; i++ {
 }
 fmt.Println(i, str) // 3
 ```
+
 In Go, there are two methods to skip or terminate an iteration. In the given example we utilize **_continue_** statement to bypass a condition and proceed with the rest of the loop. An alternative approach is to use **_break_** statement which allows for immediate termination of the iteration when a spesific condition is met.
-
-
-
-
