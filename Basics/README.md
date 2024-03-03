@@ -122,7 +122,8 @@ $ go run constant.go
 
 In my opinion, string formatting/interpolation in Go is currently _less_ elegant than JavaScript.
 
-**Examples**
+**Examples**: \
+<br />
 %v - Default representation
 
 The `%v` variants prints the Go syntax to represent a value. Usually we can use this if we are unsure what else to use. With that said it is better to use type-spesific variants.
