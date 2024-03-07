@@ -228,3 +228,30 @@ func counter(x int): int {
 ```
 
 Accepts `x` parameter that has integer type and returns another integer value.
+
+**Multiple Parameter**\
+When we have a function with multiple arguments are the same type, the type only needs to be declared after the last one
+<br />
+<br />
+For example, the following function:
+
+```go
+import (
+	"fmt"
+	"strconv"
+)
+
+func add(x, y int, result string) string {
+	resAdd := x + y
+	return "result " + strconv.Itoa(resAdd)
+}
+
+func main() {
+	var addValue string = add(5, 6, "The result is")
+	fmt.Println(addValue)
+}
+```
+
+```bash
+The result is 11
+```
