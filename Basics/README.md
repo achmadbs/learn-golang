@@ -251,9 +251,11 @@ func main() {
 	fmt.Println(addValue)
 }
 ```
-since `x` and `y` are the same type, we only need to declare type at y which the last one (_assuming they are in order._)\
-If they are not in order they need to be defined separately.
-
 ```bash
 The result is 11
 ```
+
+since `x` and `y` are the same type, we only need to declare type at y which the last argument that has **_int_** type (_assuming they are in order._)\
+If they are not in order they need to be defined separately.
+
+
