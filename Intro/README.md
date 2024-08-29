@@ -14,7 +14,6 @@ func main() {
     fmt.Println("This is first app!")
 }
 ```
-
 then we can also create another file _second_app.go_ which also belongs to the main package.
 
 ```go
@@ -26,3 +25,6 @@ func main() {
     fmt.Println("This in second app!")
 }
 ```
+
+## Main Package
+You may be wondering why i mention _main_ so often, why not _app_ or _index_?
