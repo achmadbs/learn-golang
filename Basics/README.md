@@ -1,6 +1,6 @@
 # Basics
 
-For my reference, i'd like to write about basic Go programming in this section.
+For my reference, i'd like to write about basic Go programming in this section.\
 Such as:
 
 - Brief introduction about Go.
