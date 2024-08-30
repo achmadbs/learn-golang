@@ -2,7 +2,7 @@
 
 When we writing GO code we can split our code accross packages, and we should have at least one package per application. And a single package can also split into multiple files.
 
-For Example:\
+For example:\
 suppose we have a file/package called _app.go_
 
 ```go
@@ -27,4 +27,5 @@ func main() {
 ```
 
 ## Main Package
-You may be wondering why i mention _main_ so often, why not _app_ or _index_?
+You may be wondering why i mention _main_ so often, why not _app_ or _index_?\
+technically we can naming our entry point (main in this case) or index in JavaScript any name we want.
