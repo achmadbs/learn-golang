@@ -30,4 +30,9 @@ func main() {
 You may be wondering why we should use _main_ as our package name, why not _app_ or _index_?\
 technically we can naming our entry point (main in this case) or index in JavaScript any name we want.
 
-For example as i mentioned above we have a file called _app.go_
+For example as i mentioned above we have a file called _app.go_, when we run it\
+```bash
+go run app.go
+This is first app!
+```
+it will run without any problem, but the thing is we dont always run our Go code just like that, it only convenient during development process
