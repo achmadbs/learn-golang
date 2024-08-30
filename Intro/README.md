@@ -35,4 +35,11 @@ For example as i mentioned above we have a file called _app.go_, when we run it\
 go run app.go
 This is first app!
 ```
-it will run without any problem, but the thing is we dont always run our Go code just like that, it only convenient during development process
+it will run without any problem, but the thing is we dont always run our Go code just like that, it only convenient during development process.
+
+For deployment process we should build our Go code to make it available for other people, because those people might not have Go installed in their machine, so they definetely cannot run that command we tried above.
+
+To make our Go available to be executed by other although they dont have Go installed, we can use build command
+```bash
+go build
+```
