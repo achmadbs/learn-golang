@@ -27,5 +27,7 @@ func main() {
 ```
 
 ## Main Package
-You may be wondering why i mention _main_ so often, why not _app_ or _index_?\
+You may be wondering why we should use _main_ as our package name, why not _app_ or _index_?\
 technically we can naming our entry point (main in this case) or index in JavaScript any name we want.
+
+For example as i mentioned above we have a file called _app.go_
