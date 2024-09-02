@@ -16,4 +16,6 @@ But there also are some noteworthy *"niche"* basic types which we will typically
 - There also are more types like `int8` or `uint8` which work in the same way (=> integer with smaller number range)
 
 ## Null Values
-All Go value types come with a so-called **"null value"** which is the value stored in a variable if no other value is explicitly set.
+All Go value types come with a so-called **"null value"** which is the value stored in a variable if no other value is explicitly set.\
+
+For example, the following `int` variable would have a default value of `0` (because `0` is the null value of `int`, `int32` etc):
