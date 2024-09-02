@@ -1,5 +1,6 @@
 # Go Types & Null Values
 
+## Basic Types
 Go comes with a couple of built-in basic types:
 - `int` =>  A number **WITHOUT** decimal places (e.g., `-5`, `10`, `12` etc)
 - `float64` => A number **WITH** decimal places (e.g., `-5.2`, `10.123`, `12.9` etc)
@@ -13,3 +14,6 @@ But there also are some noteworthy *"niche"* basic types which we will typically
 - `uint32` => A 32-bit unsigned integer, an integer that can represent values from `0` to `4,294,967,295`
 - `int64` => A 64-bit signed integer, an integer that can represent a larger range of values, specifically from `-9`, `223`, `372`, `036`, `854`, `775,808` to `9`, `223`, `372`, `036`, `854`, `775,807`
 - There also are more types like `int8` or `uint8` which work in the same way (=> integer with smaller number range)
+
+## Null Values
+All Go value types come with a so-called **"null value"** which is the value stored in a variable if no other value is explicitly set.
